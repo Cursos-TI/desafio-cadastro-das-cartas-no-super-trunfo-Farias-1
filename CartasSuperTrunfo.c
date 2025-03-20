@@ -15,7 +15,7 @@ int main() {
 
     //Boas vindas e explicação da premissa do programa
     printf("Bem-vindo ao Super Trunfo Países!\n");
-    printf("Você cadastrará duas cartas, comece cadastrando a primeira, siga as instruções abaixo.\n");
+    printf("Você cadastrará duas cartas.\nComece cadastrando a primeira seguindo as instruções abaixo.\n");
     
     printf("\n=======\ Primeira Carta =======\n"); 
     //Cadastro da primeira carta
@@ -65,8 +65,8 @@ int main() {
     printf("Código: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", cidade1);
     printf("População: %d\n", populacao1);
-    printf("Área: %fkm²\n", area1);
-    printf("PIB: %f bilhões de reais\n", pib1);
+    printf("Área: %.3fkm²\n", area1);
+    printf("PIB: %.3f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontosTurist1);
 
     printf("\nCarta 2:\n");
@@ -74,8 +74,8 @@ int main() {
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
     printf("População: %d\n", populacao2);
-    printf("Área: %f km²\n", area2);
-    printf("PIB: %f bilhões de reais\n", pib2);
+    printf("Área: %.3f km²\n", area2);
+    printf("PIB: %.3f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosTurist2);
 
     return 0;
