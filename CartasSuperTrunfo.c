@@ -33,7 +33,8 @@ int main() {
     scanf("%f", &pib1);
     printf("Digite o número de pontos turísticos da cidade:\n");
     scanf("%d", &pontosTurist1);
-    
+
+    //Avisos
     printf("\nSua primeira carta foi criada!\n");
     printf("Siga as instruções abaixo para a criação da segunda.\n");
 
@@ -54,6 +55,7 @@ int main() {
     printf("Digite o número de pontos turísticos da cidade:\n");
     scanf("%d", &pontosTurist2);
 
+    //Avisos
     printf("\nSua segunda carta foi criada!\n");
     printf("Veja os dados das duas cartas criadas abaixo:\n");
     
