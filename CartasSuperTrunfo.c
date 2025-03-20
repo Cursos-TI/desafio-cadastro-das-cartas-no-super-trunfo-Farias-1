@@ -17,7 +17,7 @@ int main() {
     printf("Bem-vindo ao Super Trunfo Países!\n");
     printf("Você cadastrará duas cartas, comece cadastrando a primeira, siga as instruções abaixo.\n");
     
-    printf("\n== Primeira Carta ==\n");
+    printf("\n=======\ Primeira Carta =======\n"); 
     //Cadastro da primeira carta
     printf("Digite a letra que representará o estado da sua carta (Apenas uma letra do alfabeto entre A-H):\n");
     scanf(" %c", &estado1);
@@ -33,10 +33,11 @@ int main() {
     scanf("%f", &pib1);
     printf("Digite o número de pontos turísticos da cidade:\n");
     scanf("%d", &pontosTurist1);
+    
     printf("\nSua primeira carta foi criada!\n");
     printf("Siga as instruções abaixo para a criação da segunda.\n");
 
-    printf("\n== Segunda Carta ==\n");
+    printf("\n=======\ Segunda Carta =======\n");
     //Cadastro da segunda carta
     printf("Digite a letra que representará o estado da sua carta (Apenas uma letra do alfabeto entre A-H):\n");
     scanf(" %c", &estado2);
@@ -53,7 +54,7 @@ int main() {
     printf("Digite o número de pontos turísticos da cidade:\n");
     scanf("%d", &pontosTurist2);
 
-    printf("Sua segunda carta foi criada!\n");
+    printf("\nSua segunda carta foi criada!\n");
     printf("Veja os dados das duas cartas criadas abaixo:\n");
     
     //Exibição das cartas
