@@ -1,5 +1,8 @@
 {
     "files.associations": {
         "typeinfo": "c"
-    }
+    },
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
 }
